@@ -1,0 +1,144 @@
+* {
+	margin: 0; /*margem/espaçamento em relação a página*/
+	padding: 0; /*espaço em relação a prória div (neste caso, ao body)*/
+}
+
+.texto{
+	color: white;
+	padding-top: 10px;
+}
+
+body,
+html {
+	height:100%; /*altura da página*/
+	font-family:sans-serif; /*fonte da letra*/
+	line-height:1.5; /*tamanho da letra*/
+}
+
+.logo{
+	padding: 8px 15px 0px 10px; /*espaçamento interno (esquerda, acima, direita, abaixo)*/
+}
+
+.barra{
+	background-color: #696969; /*cor de fundo*/
+	border: 0px; /*borda*/
+	margin-bottom: 0px; /*margem abaixo da div*/
+	border-radius: 0px; /*margem arredondada*/
+	border-bottom: 2px solid #A9A9A9; /*borda da parte de baixo da div*/
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white; /*cor da letra*/
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #ADD8E6;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white; /*cor da borda*/
+}
+
+.parallax{
+	width: 100%; /*largura da div*/
+	height: 100%; /*altura da div*/
+	background-attachment: fixed; /*imagem do fundo fixa*/
+	background-size: cover; /*dimensão da imagem na div: aumenta a escala da imagem para caber no elemento (mantém proporção de pixel)*/
+	background-position: 50% 0; /*posição da imagem do fundo*/
+	position: relative; /*calcula a coordenada a partir do canto superior esquerdo*/
+	display: flex; /*display flexível para se adaptar ao tamanho da tela*/
+	justify-content: center; /*itens são posicionados no centro do container*/
+	align-items: center
+}
+.div1 {
+	background-image: url(../img/saude.png); /*imagem de fundo*/
+}	''
+
+.contato{
+	background-color: #6495ED;
+	color: white;
+}
+/* classe da parte CONTATO */
+.contact-us{
+    padding-bottom: 10px;
+    background-color: #6495ED;
+    color: white;
+}
+.navigation-slide {
+	cursor: pointer; /*cursor do mouse*/
+}
+.links{
+	padding-top: 50px;
+	margin-top: 100px;
+}
+#course{ /*id e não class*/
+	padding-top: 80px;
+}
+.thumbnail{
+	background-color: transparent;
+	border: transparent;
+	margin-top: 20px;
+	text-align: center; /*alinhamento central do texto*/
+	color: black;
+}
+.thumbnail:hover, .thumbnail:visited{
+	text-decoration: none; /*decoração do texto*/
+}
+
+/*LOGIN*/
+.page-login{
+	background-image: url(../img/saude.png);
+
+}
+.login{
+	margin-top: 80px;
+}
+
+.login > input{     
+    width:150px;
+}
+
+.ftcare{
+	margin-left: -30px;
+}
+
+.welcome{
+	font-size: 500%;
+	font-family: Algerian;
+	margin-top: 100px;
+}
+
+.links{
+	margin: -35px 0px 0px 20px;
+	color: black;
+}
+
+.links a{
+	text-decoration: none;
+	color: black;
+}
+
+.links a:hover{
+	text-decoration: none;
+	color: #6495ED;
+}
+
+.botao{
+	padding-top: 25px;
+	margin-left: -20px;
+}
+
+/*listas*/
+.table-striped > tbody > tr{
+    background-color: #87CEEB;
+}
+
+thead{
+     background-color: #4169E1
+}
+
+thead > tr{
+    color: white;
+}
+
+.table-hover > tbody > tr:hover{
+    background-color: #A9A9A9;
+    color: #fff;
+        }
