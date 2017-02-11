@@ -1,6 +1,6 @@
 //Variáveis
 var gulp    = require("gulp");
-var del     = require("del");
+//var del     = require("del");
 var sass    = require("gulp-sass");
 var htmlmin = require("gulp-htmlmin");
 
